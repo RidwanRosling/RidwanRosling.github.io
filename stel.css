@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+* {
+  /* background-color: rgb(40, 40, 63); */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: darkcyan; */
+}
+
+.custom-jumbotron {
+  /* Ganti dari .jumbotron menjadi .custom-jumbotron */
+  padding-top: 6rem;
+  background-color: rgb(12, 12, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0;
+  color: white;
+}
+
+.profil {
+  border: solid;
+  background-color: rgb(12, 12, 82);
+  border-radius: 50px;
+  width: 210px;
+}
+
+.nama-saya {
+  background-color: rgb(12, 12, 82);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col {
+  font-weight: 400;
+}
+
+/* carosel start */
+#carouselExampleCaptions .carousel-item img {
+  height: auto;
+  border-radius: 25px;
+  /* height: 600px; */
+}
+
+#game {
+  color: rgb(12, 12, 82) !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+/* carosel end */
+
+/* comment section */
+
+.name {
+  color: black;
+}
+
+.date {
+  font-size: 11px;
+}
+.comment-text {
+  font-size: 12px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.shadow-none {
+  box-shadow: none;
+}
+.name {
+  color: white;
+}
+.cursor:hover {
+  color: blue;
+}
+.cursor {
+  cursor: pointer;
+}
+.textarea {
+  resize: none;
+}
+
+section {
+  padding-top: 5rem;
+}
